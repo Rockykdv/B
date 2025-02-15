@@ -2,9 +2,9 @@ import paramiko
 
 # Remote VPS details (replace with your VPS details)
 VPS = {
-    'ip': 'VPS_1_IP',       # Example: '192.168.1.2'
-    'username': 'vps_user',  # VPS SSH username
-    'password': 'vps_password'  # VPS SSH password
+    'ip': '35.154.151.44',       # Example: '192.168.1.2'
+    'username': 'ubuntu',  # VPS SSH username
+    'password': 'dhanraj'  # VPS SSH password
 }
 
 # Function to execute attack command on remote VPS
